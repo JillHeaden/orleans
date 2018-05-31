@@ -3,11 +3,11 @@ layout: page
 title: Introduction
 ---
 ## This documentation is for the 2.0 release
-Orleans 2.0 is a significant overhaul from the 1.x versions.
+Orleans 2.0 is a significant overhaul from the 1.x versions. 
 The 2.0 release is cross-platform via [.NET Standard 2.0](https://github.com/dotnet/standard/blob/master/docs/versions/netstandard2.0.md) and [.NET Core](https://www.microsoft.com/net).
 It has a more modular and flexible structure due to heavy use of Dependency Injection, a modern configuration API, and a revamped provider model.
 
-Orleans 2.0 still supports most of the 1.x API via optional legacy packages.
+Orleans 2.0 still supports most of the 1.x API via optional legacy packages. 
 Orleans 1.5 will continue to be supported for some time, but 2.0 is where all the investments are going.
 For 1.5 [Documentation](../1.5/Documentation/Introduction.md) and [Tutorials](../1.5/Tutorials/index.md), refer to the respective sections that are snapshots of the documentation as of the 2.0 release.
 
@@ -32,7 +32,7 @@ The other problem with the stateless n-tier model is that it doesn't support wel
 
 ## Orleans as a Stateful Middle Tier
 
-Orleans provides an intuitive way of building a stateful middle tier, where various business logic entities appear as sea of isolated globally addressable .NET objects (grains) of different application defined types distributed across a cluster of servers (silos).
+Orleans provides an intuitive way of building a stateful middle tier, where various business logic entities appear as a sea of isolated globally addressable .NET objects (grains) of different application defined types distributed across a cluster of servers (silos).
 
 ![](actor-middle-tier.png)
 
